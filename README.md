@@ -107,36 +107,35 @@ pip install - r requirements.txt
 To run the experiments with the baseline models on the task of AMD detection, execute:
 
 ```
-./scripts/train_amd_base.py.sh
+./scripts/train_amd_base.sh
 ```
 
 To run the experiments with the proposed FIS on the task of AMD detection, execute:
 
 ```
-./scripts/train_amd_fis.py.sh
+./scripts/train_amd_fis.sh
 ```
 
 To run the experiments with the baseline models on the task of DR detection, execute:
 
 ```
-./scripts/train_dr_base.py.sh
+./scripts/train_dr_base.sh
 ```
 
 To run the experiments with the proposed FIS on the task of DR detection, execute:
 
 ```
-./scripts/train_dr_fis.py.sh
+./scripts/train_dr_fis.sh
 ```
 
 To run the experiments with the baseline models on the task of glaucoma detection, execute:
 
 ```
-./scripts/train_glaucoma_base.py.sh
+./scripts/train_glaucoma_base.sh
 ```
 
 To run the experiments with the proposed FIS on the task of glaucoma detection, execute:
 
 ```
-./scripts/train_glaucoma_fis.py.sh
+./scripts/train_glaucoma_fis.sh
 ```
-
