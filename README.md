@@ -8,10 +8,10 @@ The dataset can be accessed via this [link](https://drive.google.com/drive/folde
 
 Our dataset includes 10,000 subjects for Age-Related Macular Degeneration (AMD), Diabetic Retinopathy (DR), and glaucoma separately, totaling 30,000 subjects with comprehensive demographic identity attributes including age, gender, race, ethnicity, preferred language, and marital status. Each subject has one Scanning Laser Ophthalmoscopy (SLO) fundus photo and one sample of Optical Coherence Tomography (OCT) B-scans. The size of OCT B-scans is 200 x 200 x 200 in glaucoma, while the one of OCT B-scans. The size of OCT B-scans is 128 x 200 x 200 in AMD and DR. 
 
-The dataset's overall size is approximately 1 terabyte (TB). To streamline the download process, we will compress the data and provide a more compact version. The structure of the dataset is as follows.
+The dataset has an approximate size of 1 terabyte (TB). To streamline the download process, we have compressed the samples for each disease into three zip files: AMD.zip (225 GB), DR.zip (224 GB), and Glaucoma.zip (215 GB). Upon downloading and extracting these datasets, you will find the dataset structure as follows.
 
 ```
-Harvard-EF30K
+EyeFairness
 ├── AMD
 │   ├── test
 │   ├── train
