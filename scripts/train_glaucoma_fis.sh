@@ -23,7 +23,7 @@ SCALE_GROUP_WEIGHT=2.
 PERF_FILE=${MODEL_TYPE}_${MODALITY_TYPE}_${ATTRIBUTE_TYPE}.csv
 
 python ./scripts/train_glaucoma_fair_fis.py \
-		--data_dir ${DATASET_DIR}/AMD/ \
+		--data_dir ${DATASET_DIR}/Glaucoma/ \
 		--result_dir ${RESULT_DIR}/results/glaucoma_${MODALITY_TYPE}_${ATTRIBUTE_TYPE}_fis/${MODEL_TYPE}_${MODALITY_TYPE}_lr${LR}_bz${BATCH_SIZE} \
 		--model_type ${MODEL_TYPE} \
 		--image_size 200 \
